@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Nouman Qayyum — Frontend Developer</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,500;0,9..144,600;1,9..144,500&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- ============ NAV ============ -->
+<header class="nav">
+  <a href="#home" class="nav__brand">
+    <img src="profile.jpg" alt="Nouman Qayyum" class="nav__avatar">
+    <span class="nav__name">Nouman Qayyum</span>
+  </a>
+  <nav class="nav__links" aria-label="Primary">
+    <a href="#about">About</a>
+    <a href="#work">Work</a>
+    <a href="#services">Services</a>
+    <a class="nav__cta" href="#contact">Contact</a>
+  </nav>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section id="home" class="hero">
+    <div class="hero__glow" aria-hidden="true"></div>
+    <div class="hero__inner">
+      <div class="hero__text">
+        <p class="hero__eyebrow">HTML &amp; CSS Frontend Developer</p>
+        <h1 class="hero__title">
+          I build websites that<br>
+          <em>look right</em> everywhere.
+        </h1>
+        <p class="hero__sub">
+          Nouman Qayyum. Frontend developer focused on clean, responsive,
+          user-friendly websites — built with solid HTML5 and CSS3
+          fundamentals.
+        </p>
+        <div class="hero__actions">
+          <a class="btn btn--primary" href="#work">See the work</a>
+          <a class="btn btn--ghost" href="#contact">Get in touch</a>
+        </div>
+      </div>
+      <div class="hero__photo">
+        <div class="hero__photo-ring" aria-hidden="true"></div>
+        <img src="profile.jpg" alt="Nouman Qayyum" class="hero__img">
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="about">
+    <p class="section__label">About</p>
+    <h2 class="section__title">Solid fundamentals.<br>Clean, responsive layouts.</h2>
+    <div class="about__grid">
+      <p class="about__text">
+        I am an aspiring frontend developer with a strong foundation in
+        HTML and CSS. I enjoy creating clean, responsive, and
+        user-friendly websites.
+      </p>
+      <p class="about__text">
+        I am currently focused on improving my frontend development
+        skills by building real-world projects and learning modern web
+        design techniques.
+      </p>
+    </div>
+    <ul class="tags" aria-label="Core skills">
+      <li class="tag">HTML5</li>
+      <li class="tag">CSS3</li>
+      <li class="tag">Responsive Web Design</li>
+      <li class="tag">Flexbox</li>
+      <li class="tag">Website Layout Design</li>
+    </ul>
+  </section>
+
+  <!-- ============ WORK ============ -->
+  <section id="work" class="work">
+    <p class="section__label">Work</p>
+    <h2 class="section__title">A few things I've shipped.</h2>
+
+    <div class="projects">
+
+      <article class="project">
+        <div class="project__meta">
+          <span class="project__index">// amazon-homepage-clone</span>
+        </div>
+        <h3 class="project__title">Amazon Homepage Clone</h3>
+        <p class="project__desc">
+          A responsive Amazon homepage clone built using only HTML and
+          CSS — includes a navigation bar, hero section, product cards,
+          and a clean responsive layout.
+        </p>
+        <ul class="project__stack">
+          <li>HTML5</li><li>CSS3</li>
+        </ul>
+        <a class="project__link" href="https://github.com/Nouman086" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+      <article class="project">
+        <div class="project__meta">
+          <span class="project__index">// personal-portfolio</span>
+        </div>
+        <h3 class="project__title">Personal Portfolio Website</h3>
+        <p class="project__desc">
+          A modern portfolio website designed and developed to showcase
+          skills, projects, and contact information.
+        </p>
+        <ul class="project__stack">
+          <li>HTML5</li><li>CSS3</li>
+        </ul>
+        <a class="project__link" href="https://github.com/Nouman086" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+      <article class="project">
+        <div class="project__meta">
+          <span class="project__index">// clothing-brand-website</span>
+        </div>
+        <h3 class="project__title">Clothing Brand Website</h3>
+        <p class="project__desc">
+          A responsive front-end website for a clothing brand with a
+          modern and attractive user interface.
+        </p>
+        <ul class="project__stack">
+          <li>HTML5</li><li>CSS3</li>
+        </ul>
+        <a class="project__link" href="https://github.com/Nouman086" target="_blank" rel="noopener">View on GitHub →</a>
+      </article>
+
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="services">
+    <p class="section__label">Services</p>
+    <h2 class="section__title">What I can build for you.</h2>
+
+    <ul class="service-grid">
+      <li class="service-item">
+        <span class="service-item__icon" aria-hidden="true">▦</span>
+        <span class="service-item__text">Responsive Website Development</span>
+      </li>
+      <li class="service-item">
+        <span class="service-item__icon" aria-hidden="true">▤</span>
+        <span class="service-item__text">Landing Page Development</span>
+      </li>
+      <li class="service-item">
+        <span class="service-item__icon" aria-hidden="true">◈</span>
+        <span class="service-item__text">Portfolio Website Design</span>
+      </li>
+      <li class="service-item">
+        <span class="service-item__icon" aria-hidden="true">▣</span>
+        <span class="service-item__text">Business Website Frontend</span>
+      </li>
+      <li class="service-item">
+        <span class="service-item__icon" aria-hidden="true">⌘</span>
+        <span class="service-item__text">HTML &amp; CSS Website Development</span>
+      </li>
+    </ul>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="contact">
+    <div class="contact__card">
+      <p class="section__label">Contact</p>
+      <h2 class="section__title">Building something worth<br>a second pair of eyes?</h2>
+      <p class="contact__text">
+        I'm open to frontend roles, freelance builds, and website projects.
+        Fastest way to reach me is email.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn--primary" href="mailto:noumanqayyum086@gmail.com">noumanqayyum086@gmail.com</a>
+        <a class="btn btn--ghost" href="https://github.com/Nouman086" target="_blank" rel="noopener">GitHub</a>
+        <a class="btn btn--ghost" href="https://www.linkedin.com/in/nouman-qayyum-49b988294" target="_blank" rel="noopener">LinkedIn</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="footer">
+  <p>© 2026 Nouman Qayyum. Built with plain HTML &amp; CSS.</p>
+</footer>
+
+</body>
+</html>
